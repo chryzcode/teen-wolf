@@ -1,0 +1,1 @@
+web: gunicorn teen_wolf_project.wsgi --log-file -
