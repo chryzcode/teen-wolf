@@ -23,7 +23,7 @@ SECRET_KEY = str(os.getenv('SECRET_KEY'))
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['teen-wolf-site.herokuapp.com', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'teen-wolf-site.herokuapp.com', 'www.teenwolftoken.com', 'teenwolftoken.com']
 
 EMAIL_HOST = 'smtp.zoho.com'
 EMAIL_HOST_USER = str(os.getenv('EMAIL_HOST_USER'))
