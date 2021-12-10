@@ -881,7 +881,7 @@ form > button {
 
 /* footer {
   position: relative;
-} */
+}
 
 footer::after {
   content: "";
@@ -898,7 +898,7 @@ footer::after {
   filter: brightness(0.2);
   display: block;
   margin: auto auto;
-}
+} */
 
 footer > img {
   width: 430px;
