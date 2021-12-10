@@ -879,9 +879,9 @@ form > button {
   cursor: pointer;
 }
 
-footer {
+/* footer {
   position: relative;
-}
+} */
 
 footer::after {
   content: "";
