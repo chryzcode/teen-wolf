@@ -4,6 +4,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #1e262c;
 }
@@ -34,6 +38,11 @@ nav > ul {
   list-style: none;
 }
 
+nav > ul > li > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 nav > ul > li {
   margin: 0 20px;
 }
@@ -44,6 +53,10 @@ nav > ul > li {
   flex-direction: row;
   justify-content: right;
   padding-right: 30px;
+}
+
+.nav-btns > a{
+  text-decoration: none;
 }
 
 .contact-us-btn {
@@ -63,7 +76,7 @@ nav > ul > li {
   margin: 0 10px;
 }
 
-/* .about-teen-wolf::after {
+.about-teen-wolf::after {
   content: "";
   margin-top: 30px;
   background: url("../images/teen-wolf-bg.png") no-repeat center center;
@@ -80,7 +93,7 @@ nav > ul > li {
   margin-right: auto;
   opacity: 0.2;
   filter: brightness(0.2);
-} */
+}
 
 #teen-wolf {
   font-weight: 800;
@@ -100,17 +113,35 @@ nav > ul > li {
   margin: 0 auto;
 }
 
+.white-paper-btn-container {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 30px;
+}
+
+.white-paper-btn-container > a {
+  text-decoration: none;
+}
+
 .white-paper-btn {
+  width: 300px;
+  height: 40px;
+  color: #101417;
+  background-color: #ffc800;
+  border-radius: 8px 8px 8px 8px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 10px 6px;
-  width: 160px;
-  height: 30px;
-  background: #ffc800;
-  border-radius: 8px;
-  margin: 20px auto;
+}
+
+.white-paper-btn > * {
+  color: #101417;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .teen-wolf-animation-1 > img {
@@ -128,7 +159,7 @@ nav > ul > li {
   margin-top: 30px;
 }
 
-/* .tokenomics::before {
+.tokenomics::before {
   content: "";
   position: absolute;
   background-image: url("../images/teen-wolf-bg.png");
@@ -143,9 +174,9 @@ nav > ul > li {
   opacity: 0.2;
   filter: brightness(0.2);
   margin-right: auto;
-} */
+}
 
-/* .tokenomics::after {
+.tokenomics::after {
   content: "";
   position: absolute;
   background-image: url("../images/teen-wolf-bg.png");
@@ -160,7 +191,7 @@ nav > ul > li {
   opacity: 0.2;
   filter: brightness(0.2);
   margin-left: auto;
-} */
+}
 
 .dotted-line {
   position: absolute;
@@ -245,7 +276,7 @@ nav > ul > li {
   position: relative;
   margin-top: 30px;
 }
-/* 
+
 .mission::after {
   content: "";
   margin-top: 30px;
@@ -263,7 +294,7 @@ nav > ul > li {
   margin-right: auto;
   opacity: 0.2;
   filter: brightness(0.2);
-} */
+}
 
 .mission > p {
   position: absolute;
@@ -350,7 +381,7 @@ nav > ul > li {
   text-align: center;
 }
 
-/* .ecosystem::after {
+.ecosystem::after {
   content: "";
   position: absolute;
   background-image: url("../images/teen-wolf-bg.png");
@@ -365,9 +396,9 @@ nav > ul > li {
   opacity: 0.2;
   filter: brightness(0.2);
   margin-left: auto;
-} */
+}
 
-/* .ecosystem::before {
+.ecosystem::before {
   content: "";
   position: absolute;
   background-image: url("../images/teen-wolf-bg.png");
@@ -382,7 +413,7 @@ nav > ul > li {
   opacity: 0.2;
   filter: brightness(0.2);
   margin-right: auto;
-} */
+}
 
 .ecosystem > p {
   margin-right: auto;
@@ -433,7 +464,7 @@ nav > ul > li {
   padding: 24px 24px 24px 108px;
 }
 
-/* .rfi-static-rewards-card-container::after {
+.rfi-static-rewards-card-container::after {
   content: "";
   position: absolute;
   background-image: url("../images/teen-wolf-bg.png");
@@ -450,7 +481,7 @@ nav > ul > li {
   filter: brightness(0.2);
   display: block;
   margin: 30px auto;
-} */
+}
 
 .rfi-static-rewards-image {
   height: 246px;
@@ -466,7 +497,6 @@ nav > ul > li {
   height: 273px;
   background: #1e262c;
   border-radius: 12px;
-
 }
 
 .rfi-static-rewards-card > p {
@@ -505,7 +535,7 @@ nav > ul > li {
   padding: 24px 108px 24px 24px;
 }
 
-/* .automatic-lp-card-container::after {
+.automatic-lp-card-container::after {
   content: "";
   position: absolute;
   background-image: url("../images/teen-wolf-bg.png");
@@ -521,9 +551,9 @@ nav > ul > li {
   opacity: 0.2;
   filter: brightness(0.2);
   margin-left: auto;
-} */
+}
 
-/* .automatic-lp-card-container::before {
+.automatic-lp-card-container::before {
   content: "";
   position: absolute;
   background-image: url("../images/teen-wolf-bg.png");
@@ -539,7 +569,7 @@ nav > ul > li {
   opacity: 0.2;
   filter: brightness(0.2);
   margin-right: auto;
-} */
+}
 
 .automatic-lp-card {
   flex-direction: column;
@@ -571,7 +601,6 @@ nav > ul > li {
   font-size: 18px;
   line-height: 27px;
   color: #ffffff;
-  margin: 50px 0;
 }
 
 .roadmap {
@@ -588,7 +617,7 @@ nav > ul > li {
   text-align: center;
 }
 
-/* .roadmap::after {
+.roadmap::after {
   content: "";
   position: absolute;
   background: url("../images/teen-wolf-bg.png") no-repeat center center;
@@ -603,7 +632,7 @@ nav > ul > li {
   filter: brightness(0.2);
   display: block;
   margin: auto auto;
-} */
+}
 
 .roadmap > p {
   margin-right: auto;
@@ -666,7 +695,7 @@ nav > ul > li {
   margin: 60px 80px;
 }
 
-/* .last-grid::after {
+.last-grid::after {
   content: "";
   position: absolute;
   background-image: url("../images/teen-wolf-bg.png");
@@ -682,11 +711,9 @@ nav > ul > li {
   opacity: 0.2;
   filter: brightness(0.2);
   margin-left: auto;
-} */
+}
 
-
-
-/* .last-grid::before {
+.last-grid::before {
   content: "";
   position: absolute;
   background-image: url("../images/teen-wolf-bg.png");
@@ -702,7 +729,7 @@ nav > ul > li {
   opacity: 0.2;
   filter: brightness(0.2);
   margin-right: auto;
-} */
+}
 
 .faq-section > p {
   font-weight: bold;
@@ -806,7 +833,6 @@ form > * {
 form > label {
   font-weight: normal;
   font-size: 18px;
-  /* line-height: 27px; */
   color: #ffffff;
 }
 
@@ -857,7 +883,7 @@ footer {
   position: relative;
 }
 
-/* footer::after {
+footer::after {
   content: "";
   position: absolute;
   background: url("../images/teen-wolf-bg.png") no-repeat center center;
@@ -872,7 +898,7 @@ footer {
   filter: brightness(0.2);
   display: block;
   margin: auto auto;
-} */
+}
 
 footer > img {
   width: 430px;
@@ -886,11 +912,11 @@ footer > img {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 30%;
   margin: 0px auto;
   padding: 0 20px;
   color: #ffc800;
   font-size: 30px;
+  width: 40%;
 }
 
 .copyright-container {
@@ -910,17 +936,6 @@ footer > img {
   margin-top: 5px;
 }
 
-.side-links {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 30px;
-  padding: 0 20px;
+div.footer-links > a > * {
   color: #ffc800;
-  font-size: 30px;
-}
-
-.side-links > i {
-  margin-left: auto;
 }

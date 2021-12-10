@@ -5,11 +5,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="{% static 'images/android-chrome-512x512.png' %}" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins@&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css" />
     <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
-    <link rel="stylesheet" href="{% static 'css/responsiveness.css' %}">
+    <link rel="stylesheet" href="{% static 'css/responsiveness.css' %}" />
     <title>Teen Wolf</title>
   </head>
   <body style="height: 700vh">
@@ -17,16 +18,16 @@
       <img class="nav-bar-logo" src="{% static 'images/teen-wolf-logo.PNG' %}" alt="" />
 
       <span class="nav-btns">
-        <span class="contact-us-btn"> Contact us </span>
+        <a href="#contact" class="contact-us-btn"> Contact us </a>
       </span>
       <ul>
-        <li>About</li>
-        <li>Roadmap</li>
-        <li>Features</li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#roadmap">Roadmap</a></li>
+        <li><a href="#tokenomics">Tokenomics</a></li>
       </ul>
     </nav>
 
-    <div class="about-teen-wolf">
+    <div id="about" class="about-teen-wolf">
       <div id="teen-wolf">TEEN WOLF</div>
       <div class="teen-wolf-info">
         Teen Wolf Token, a less complex, highly intelligent community-driven platform merchandising economic well-being
@@ -35,13 +36,20 @@
         aids the adoption of the token by the young adults and community with effortless access without a rejection
         based on the high demand fee.
       </div>
-      <div class="white-paper-btn">Alpha Pack Paper</div>
     </div>
+
+    <span class="white-paper-btn-container">
+      <a href="https://drive.google.com/file/d/1WWlrQuckeemcZUqhZgZd3UKAeBVgd0n8/view" class="white-paper-btn"
+        >Alpha Pack Paper</a
+      >
+    </span>
+
     <div class="teen-wolf-animation-1">
       <img src="{% static 'images/teen-wolf-animation-1.gif' %}" alt="" />
     </div>
+    <a href=""></a>
 
-    <div class="tokenomics">
+    <div id="tokenomics" class="tokenomics">
       <div class="dotted-line"></div>
       <p>TOKENOMICS</p>
       <div class="tokenomics-card-container">
@@ -119,7 +127,7 @@
       <img class="automatic-lp-image" src="{% static 'images/teen-wolf-image-2.PNG' %}" alt="" />
     </div>
 
-    <div class="roadmap">
+    <div id="roadmap" class="roadmap">
       <div class="dotted-line"></div>
       <p>OUR ROADMAP</p>
       <div class="roadmap-grid">
@@ -251,14 +259,14 @@
 
     <footer>
       <img src="{% static 'images/teen-wolf-logo.PNG' %}" alt="" />
-      <div class="footer-links">
-        <i class="fab fa-discord"></i>
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-pinterest"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-telegram"></i>
+      <div id="contact" class="footer-links">
+        <a href="https://discord.gg/nbbvv5WkEQ" target="_blank"><i class="fab fa-discord"></i></a>
+        <a href="https://www.facebook.com/TeenWolfToken" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.reddit.com/u/TeenWolfToken" target="_blank"><i class="fab fa-reddit"></i></a>
+        <a href="https://www.instagram.com/teenwolftoken" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://t.me/teenwolftoken" target="_blank"><i class="fab fa-telegram"></i></a>
+        <a href="https://twitter.com/teenwolftoken" target="_blank"><i class="fab fa-twitter"></i></a>
       </div>
-
       <div class="copyright-container">
         <p>&copy; 2021 Teenwolf Token</p>
       </div>

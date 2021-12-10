@@ -1,4 +1,7 @@
-@media only screen and (min-width: 100px) and (max-width: 850px) {
+@media only screen and (max-width: 850px) {
+  nav > ul {
+    margin-top: 20px;
+  }
   .roadmap-grid {
     grid-template-columns: 1fr;
     text-align: left;
@@ -174,27 +177,264 @@
   }
 
   .about-teen-wolf::after {
-    width: 100%;
+    width: 80%;
+    background-size: contain;
+  }
+
+  .tokenomics::before {
+    display: none;
+  }
+
+  .tokenomics::after {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-size: contain;
+    right: 0;
+    left: 5%;
   }
 
   .mission::after {
-    width: 100%;
+    width: 50%;
+    background-size: contain;
   }
 
-  .last-grid::before {
+  .ecosystem::before {
     display: none;
   }
 
-  .last-grid::before {
+  .ecosystem::after {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-size: contain;
+    right: 0;
+    left: 5%;
+    margin-top: 80px;
+  }
+
+  .rfi-static-rewards-card-container::after {
+    width: 60%;
+    background-size: contain;
+    margin-top: 150px;
+  }
+
+  .automatic-lp-card-container::before {
     display: none;
+  }
+
+  .automatic-lp-card-container::after {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain;
+    right: 0;
+    left: 0;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .roadmap::after {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain;
+    right: 0;
+    left: 0;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .last-grid::before {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain;
+    right: 0;
+    left: 0;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .last-grid::after {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain;
+    right: 0;
+    left: 0;
+    margin-top: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer::after {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain;
+    right: 0;
+    left: 0;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 
   footer > img {
-    width: 100%;
+    width: 90%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
   }
 }
 
-/* .contact-us-btn {
+@media only screen and (max-width: 500px) {
+  .quater {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 68px;
+    display: block;
+    text-align: center;
+  }
+
+  .a-roadmap-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .quater-listings {
+    text-align: left;
+  }
+
+  .footer-links {
+    width: 60%;
+  }
+
+  .quater-listings {
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 10px;
+    text-align: left;
+  }
+
+  .quater-listing-bullet {
+    width: 10px;
+    height: 2px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+  }
+
+  .copyright-container {
+    width: 100%;
+    border-radius: 0px;
+    margin-top: 40px;
+    float: none;
+  }
+
+  .copyright-container > p {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .contact-section > p {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .faq-section > p {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .contact-section > small {
+    font-size: 15px;
+  }
+
+  form > label {
+    font-size: 15px;
+  }
+
+  form > button {
+    padding: 3px;
+    position: absolute;
     width: 100px;
-    height: 40px;
-  } */
+    height: 35px;
+    font-size: 17px;
+    line-height: 20px;
+    cursor: pointer;
+  }
+
+  .rfi-static-rewards-card > p{
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px 0px;
+  }
+
+  .rfi-static-rewards-card > div {
+    margin: 20px 0px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .automatic-lp-card > p {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px 0px;
+  }
+
+  .automatic-lp-card > div {
+    margin: 20px 0px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  nav > ul {
+    display: none;
+  }
+
+  .nav-btns {
+    display: none;
+  }
+
+  .nav-bar-logo {
+    display: block;
+    position: relative;
+    margin: 15px auto;
+    padding: 0;
+  }
+
+  .footer-links {
+    width: 60%;
+    font-size: 20px;
+  }
+}
