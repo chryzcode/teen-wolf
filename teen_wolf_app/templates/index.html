@@ -235,13 +235,14 @@
         <p>Contact Us <span class="side-dotted-line"></span></p>
         <small>We want to hear from you</small>
         <div class="contact-form">
-          <form action="">
+          <form method="post" action="{% url 'index' %}">
+            {% csrf_token %}
             <label for="name">Name</label>
-            <input id="name" type="text" />
+            <input id="name" type="text" name="name" />
             <label for="email">Email Address</label>
-            <input type="email" id="email" />
+            <input type="email" id="email" name="email" />
             <label for="message">Your Message</label>
-            <textarea name="" id="message" cols="1" rows="1"></textarea>
+            <textarea name="message" id="message" cols="1" rows="1"></textarea>
             <button type="submit">Send</button>
           </form>
         </div>

@@ -172,6 +172,26 @@
   .teen-wolf-animation-1 > img {
     width: 100%;
   }
+
+  .about-teen-wolf::after {
+    width: 100%;
+  }
+
+  .mission::after {
+    width: 100%;
+  }
+
+  .last-grid::before {
+    display: none;
+  }
+
+  .last-grid::before {
+    display: none;
+  }
+
+  footer > img {
+    width: 100%;
+  }
 }
 
 /* .contact-us-btn {

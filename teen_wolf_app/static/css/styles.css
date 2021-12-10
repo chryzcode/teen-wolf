@@ -63,7 +63,7 @@ nav > ul > li {
   margin: 0 10px;
 }
 
-.about-teen-wolf::after {
+/* .about-teen-wolf::after {
   content: "";
   margin-top: 30px;
   background: url("../images/teen-wolf-bg.png") no-repeat center center;
@@ -80,7 +80,7 @@ nav > ul > li {
   margin-right: auto;
   opacity: 0.2;
   filter: brightness(0.2);
-}
+} */
 
 #teen-wolf {
   font-weight: 800;
@@ -128,7 +128,7 @@ nav > ul > li {
   margin-top: 30px;
 }
 
-.tokenomics::before {
+/* .tokenomics::before {
   content: "";
   position: absolute;
   background-image: url("../images/teen-wolf-bg.png");
@@ -143,9 +143,9 @@ nav > ul > li {
   opacity: 0.2;
   filter: brightness(0.2);
   margin-right: auto;
-}
+} */
 
-.tokenomics::after {
+/* .tokenomics::after {
   content: "";
   position: absolute;
   background-image: url("../images/teen-wolf-bg.png");
@@ -160,7 +160,7 @@ nav > ul > li {
   opacity: 0.2;
   filter: brightness(0.2);
   margin-left: auto;
-}
+} */
 
 .dotted-line {
   position: absolute;
@@ -245,7 +245,7 @@ nav > ul > li {
   position: relative;
   margin-top: 30px;
 }
-
+/* 
 .mission::after {
   content: "";
   margin-top: 30px;
@@ -263,7 +263,7 @@ nav > ul > li {
   margin-right: auto;
   opacity: 0.2;
   filter: brightness(0.2);
-}
+} */
 
 .mission > p {
   position: absolute;
@@ -350,7 +350,7 @@ nav > ul > li {
   text-align: center;
 }
 
-.ecosystem::after {
+/* .ecosystem::after {
   content: "";
   position: absolute;
   background-image: url("../images/teen-wolf-bg.png");
@@ -365,9 +365,9 @@ nav > ul > li {
   opacity: 0.2;
   filter: brightness(0.2);
   margin-left: auto;
-}
+} */
 
-.ecosystem::before {
+/* .ecosystem::before {
   content: "";
   position: absolute;
   background-image: url("../images/teen-wolf-bg.png");
@@ -382,7 +382,7 @@ nav > ul > li {
   opacity: 0.2;
   filter: brightness(0.2);
   margin-right: auto;
-}
+} */
 
 .ecosystem > p {
   margin-right: auto;
@@ -433,7 +433,7 @@ nav > ul > li {
   padding: 24px 24px 24px 108px;
 }
 
-.rfi-static-rewards-card-container::after {
+/* .rfi-static-rewards-card-container::after {
   content: "";
   position: absolute;
   background-image: url("../images/teen-wolf-bg.png");
@@ -450,7 +450,7 @@ nav > ul > li {
   filter: brightness(0.2);
   display: block;
   margin: 30px auto;
-}
+} */
 
 .rfi-static-rewards-image {
   height: 246px;
@@ -505,7 +505,7 @@ nav > ul > li {
   padding: 24px 108px 24px 24px;
 }
 
-.automatic-lp-card-container::after {
+/* .automatic-lp-card-container::after {
   content: "";
   position: absolute;
   background-image: url("../images/teen-wolf-bg.png");
@@ -521,9 +521,9 @@ nav > ul > li {
   opacity: 0.2;
   filter: brightness(0.2);
   margin-left: auto;
-}
+} */
 
-.automatic-lp-card-container::before {
+/* .automatic-lp-card-container::before {
   content: "";
   position: absolute;
   background-image: url("../images/teen-wolf-bg.png");
@@ -539,7 +539,7 @@ nav > ul > li {
   opacity: 0.2;
   filter: brightness(0.2);
   margin-right: auto;
-}
+} */
 
 .automatic-lp-card {
   flex-direction: column;
@@ -588,7 +588,7 @@ nav > ul > li {
   text-align: center;
 }
 
-.roadmap::after {
+/* .roadmap::after {
   content: "";
   position: absolute;
   background: url("../images/teen-wolf-bg.png") no-repeat center center;
@@ -603,7 +603,7 @@ nav > ul > li {
   filter: brightness(0.2);
   display: block;
   margin: auto auto;
-}
+} */
 
 .roadmap > p {
   margin-right: auto;
@@ -666,7 +666,7 @@ nav > ul > li {
   margin: 60px 80px;
 }
 
-.last-grid::after {
+/* .last-grid::after {
   content: "";
   position: absolute;
   background-image: url("../images/teen-wolf-bg.png");
@@ -682,11 +682,11 @@ nav > ul > li {
   opacity: 0.2;
   filter: brightness(0.2);
   margin-left: auto;
-}
+} */
 
 
 
-.last-grid::before {
+/* .last-grid::before {
   content: "";
   position: absolute;
   background-image: url("../images/teen-wolf-bg.png");
@@ -702,7 +702,7 @@ nav > ul > li {
   opacity: 0.2;
   filter: brightness(0.2);
   margin-right: auto;
-}
+} */
 
 .faq-section > p {
   font-weight: bold;
@@ -857,7 +857,7 @@ footer {
   position: relative;
 }
 
-footer::after {
+/* footer::after {
   content: "";
   position: absolute;
   background: url("../images/teen-wolf-bg.png") no-repeat center center;
@@ -872,7 +872,7 @@ footer::after {
   filter: brightness(0.2);
   display: block;
   margin: auto auto;
-}
+} */
 
 footer > img {
   width: 430px;
