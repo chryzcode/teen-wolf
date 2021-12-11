@@ -258,10 +258,12 @@ nav > ul > li {
 .mission {
   position: relative;
   margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 .mission::after {
   content: "";
+  position: absolute;
   margin-top: 30px;
   background: url("../images/teen-wolf-bg.png") no-repeat center center;
   width: 453px;
@@ -280,7 +282,6 @@ nav > ul > li {
 }
 
 .mission > p {
-  position: absolute;
   font-size: 30px;
   line-height: 55px;
   color: #ffc800;
@@ -292,58 +293,60 @@ nav > ul > li {
 }
 
 .mission > small {
-  position: absolute;
-  margin-top: 60px;
   color: #ffffff;
-  text-align: center;
   margin-left: auto;
   margin-right: auto;
-  left: 0;
-  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-card-container {
+  position: relative;
+  width: 80%;
+  margin: 25px auto;
+}
+
+.mission-card {
+  position: relative;
+  display: block;
+  width: 95%;
+  background: #191f24;
+  border-radius: 12px;
+  margin-right: auto;
 }
 
 .mission-underlying-card-background {
   position: absolute;
-  margin-top: 100px;
-  background: #ffc800;
   border-radius: 12px;
-  transform: rotate(-1deg);
-  width: 80%;
-  height: 398px;
+  /* transform: rotate(-1deg); */
+  width: 20;
+  margin-top: 25px;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
+  background: #ffc800;
   left: 0;
   right: 0;
 }
 
-.mission-card {
-  position: absolute;
-  margin-top: 85px;
-  display: block;
-  width: 80%;
-  height: 358px;
-  background: #191f24;
-  border-radius: 12px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 70px;
-}
-
-.mission-seg-container{
-  margin: 0 auto;
-}
-
-.mission-seg-container > div{
-  margin: 5% 20px;
+.mission-card > p {
+  margin: 0px 20px;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 23px;
+}
+
+.mission-card-seg-1 {
+  padding: 50px 20px 10px 20px;
+}
+
+.mission-card-seg-2 {
+  padding: 10px 20px 50px 20px;
 }
 
 .ecosystem {
   position: relative;
-  margin-top: 570px;
   font-weight: bold;
   font-size: 32px;
   line-height: 48px;
