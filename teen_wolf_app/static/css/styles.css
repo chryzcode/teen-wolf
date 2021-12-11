@@ -15,8 +15,6 @@ body {
 nav {
   margin-top: 20px;
   margin-bottom: 40px;
-  /* margin-left: 144px;
-  margin-right: 50px; */
 }
 
 .nav-bar-logo {
@@ -77,7 +75,7 @@ nav > ul > li {
 
 .about-teen-wolf::after {
   content: "";
-  margin-top: 130px;
+  margin-top: 100px;
   background: url("../images/teen-wolf-bg.png") no-repeat center center;
   width: 253px;
   height: 261px;
