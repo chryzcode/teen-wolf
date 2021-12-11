@@ -48,9 +48,9 @@
     padding: 4%;
   }
 
-  .mission-underlying-card-background {
+  /* .mission-underlying-card-background {
     width: 80%;
-    height: 430px;
+    height: 450px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -58,17 +58,18 @@
   .mission-card {
     margin-top: 85px;
     width: 80%;
-    height: 430px;
+    height: 450px;
     margin-left: auto;
     margin-right: auto;
-  }
+    overflow: hidden;
+  } */
 
-  .mission-card > p {
+  /* .mission-card > p {
     font-size: 15px;
     line-height: 20px;
-    margin: 5px 0%;
-    padding: 20px 19px;
-  }
+    margin: 0 0;
+    padding: 0 0;
+  } */
 
   .rfi-static-rewards-card-container {
     margin-top: 60px;
@@ -275,20 +276,6 @@
     right: 0;
     left: 0;
     margin-top: 500px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-
-  footer::after {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    background-size: contain;
-    right: 0;
-    left: 0;
-    margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
