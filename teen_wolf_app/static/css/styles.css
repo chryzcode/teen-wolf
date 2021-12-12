@@ -4,11 +4,9 @@
   font-family: "Poppins", sans-serif;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
+html,
 body {
+  scroll-behavior: smooth;
   background-color: #1e262c;
   overflow-x: hidden;
 }
@@ -486,7 +484,6 @@ nav > ul > li {
   line-height: 27px;
   color: #ffffff;
 }
-
 
 .automatic-lp-card-container {
   position: relative;
