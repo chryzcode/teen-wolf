@@ -412,6 +412,7 @@ nav > ul > li {
   margin-top: 20px;
   text-align: left;
   width: 80%;
+  text-align: center;
 }
 
 .rfi-static-rewards-card-container {
@@ -663,14 +664,13 @@ nav > ul > li {
   margin: 60px 80px;
 }
 
-.last-grid::after {
+.last-grid::before {
   content: "";
   position: absolute;
   background-image: url("../images/teen-wolf-bg.png");
   width: 353px;
   height: 361px;
   background-size: cover;
-  position: absolute;
   top: 0px;
   right: 10%;
   bottom: 0px;
@@ -681,7 +681,7 @@ nav > ul > li {
   margin-left: auto;
 }
 
-.last-grid::before {
+.last-grid::after {
   content: "";
   position: absolute;
   background-image: url("../images/teen-wolf-bg.png");
