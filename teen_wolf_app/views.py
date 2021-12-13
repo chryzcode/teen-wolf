@@ -9,6 +9,6 @@ def index(request):
         subject = request.POST['name']
         message = request.POST['message']
         from_email = request.POST['email']
-        reply_to = [from_email]
+        reply_to = request.POST['email']
         send_mail(subject, message, from_email, ['contact@teenwolftoken.com'], fail_silently=False)
     return render(request, 'index.html')
