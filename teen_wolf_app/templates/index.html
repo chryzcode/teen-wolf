@@ -298,11 +298,11 @@
           <form method="post" action="{% url 'index' %}">
             {% csrf_token %}
             <label for="name">Name</label>
-            <input id="name" type="text" name="name" />
+            <input id="name" type="text" />
             <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" />
+            <input type="email" id="email" />
             <label for="message">Your Message</label>
-            <textarea name="message" id="message" cols="1" rows="1"></textarea>
+            <textarea id="message" cols="1" rows="1"></textarea>
             <button type="submit">Send</button>
           </form>
         </div>
