@@ -12,5 +12,5 @@ def index(request):
         from_email = request.POST['email'],
         reply_to = request.POST['email'],
         )
-        sent = email.send (subject, message, from_email, ['contact@teenwolftoken.com'], fail_silently=False)
+        sent = email.send (fail_silently=False)
     return render(request, 'index.html')
