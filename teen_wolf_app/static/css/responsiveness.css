@@ -84,7 +84,6 @@
   }
 
   .rfi-static-rewards-card > div {
-    /* margin: 20px 0px; */
     font-size: 17px;
     line-height: 25px;
     display: flex;
@@ -135,7 +134,6 @@
   }
 
   .automatic-lp-card > div {
-    /* margin: 20px 0px; */
     font-size: 17px;
     line-height: 25px;
     display: flex;
@@ -397,11 +395,11 @@
     line-height: 20px;
   }
 
-   .tokenomics::after {
+  .tokenomics::after {
     margin-top: 90px;
   }
 
-  .mission::after{
+  .mission::after {
     margin-top: 190px;
   }
 
@@ -411,8 +409,7 @@
 
   .mission-card-container {
     width: 90%;
-}
-
+  }
 }
 
 @media only screen and (max-width: 300px) {
