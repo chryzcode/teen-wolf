@@ -91,6 +91,14 @@ nav > ul > li {
   filter: brightness(0.2);
 }
 
+#teen-wolf {
+  font-weight: 800;
+  font-size: 90px;
+  color: #ffc800;
+  text-align: center;
+  margin: 0 auto;
+}
+
 .teen-wolf-info {
   text-align: center;
   font-size: 16px;
@@ -101,19 +109,40 @@ nav > ul > li {
   margin: 0 auto;
 }
 
-.white-paper-btn {
+.btn-container {
   display: flex;
   justify-content: center;
+  margin: 20px 0;
+}
+
+.white-paper-btn {
   align-items: center;
+  justify-content: center;
   background-color: #ffc800;
   padding: 10px 5px;
   width: 150px;
-  margin: 20px auto;
   border-radius: 8px;
   color: #101417;
   text-decoration: none;
   font-size: 18px;
   line-height: 24px;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.get-token-btn {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #ffc800;
+  padding: 10px 5px;
+  width: 250px;
+  border-radius: 8px;
+  color: #101417;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 20px;
 }
 
 .teen-wolf-animation-1 > img {
@@ -878,3 +907,75 @@ footer > img {
 div.footer-links > a > * {
   color: #ffc800;
 }
+
+/* .small {
+  font-size: 12px;
+}
+
+.err {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.blue {
+  color: blue;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c0c0c0;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.clickable:hover {
+  color: #c0c0c0;
+} */
+
+/* button {
+  background-color: #283747;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+*/
+
+button[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* hr {
+  margin: 20px;
+  border: 0;
+  border-top: 1px dashed;
+} */
+
+/* input {
+  text-align: center;
+  font-size: 18px;
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid;
+  max-width: 100%;
+} */

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css" />
     <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
     <link rel="stylesheet" href="{% static 'css/responsiveness.css' %}" />
+    <link rel="stylesheet" href="{% static 'javascript/script.js' %}" />
     <title>Teen Wolf</title>
   </head>
   <body>
@@ -39,15 +40,27 @@
       </div>
     </div>
 
-    <a
-      data-aos="zoom-in"
-      data-aos-duration="800"
-      data-aos-easing="ease-in-back"
-      href="https://drive.google.com/file/d/1Uysvzw9LQVfnpDzMupDf0xT31p1hWF5a/view"
-      target="_blank"
-      class="white-paper-btn"
-      >Alpha Pack Paper</a
-    >
+    <div class="btn-container">
+      <a
+        data-aos="zoom-in"
+        data-aos-duration="800"
+        data-aos-easing="ease-in-back"
+        href="https://drive.google.com/file/d/1Uysvzw9LQVfnpDzMupDf0xT31p1hWF5a/view"
+        target="_blank"
+        class="white-paper-btn"
+        >Alpha Pack Paper</a
+      >
+
+      <a
+        data-aos="zoom-in"
+        data-aos-duration="800"
+        data-aos-easing="ease-in-back"
+        href="https://dappbuilder.org/bsc/tokensale2/tokensale.html?id=0xD23c3365EbD13147c6e8f48361e55ffe79249297&net=56"
+        target="_blank"
+        class="get-token-btn"
+        >Get Your $Teen Wolf Token</a
+      >
+    </div>
 
     <div data-aos="fade-up" data-aos-duration="800" class="teen-wolf-animation-1">
       <img src="{% static 'images/teen-wolf-animation-1.gif' %}" alt="" />
@@ -328,5 +341,12 @@
     <script>
       AOS.init();
     </script>
+    <script src="https://dappbuilder.org/js/jquery-3.6.0.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://dappbuilder.org/js/ethers-5.0.umd.min.js" type="text/javascript" charset="utf-8"></script>
+    <script
+      src="https://dappbuilder.org/bsc/tokensale2/js/tokensale.ui.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
   </body>
 </html>
