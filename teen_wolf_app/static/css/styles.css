@@ -130,20 +130,7 @@ nav > ul > li {
   margin: 0 20px;
 }
 
-.get-token-btn {
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background-color: #ffc800;
-  padding: 10px 5px;
-  width: 200px;
-  border-radius: 8px;
-  color: #101417;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 24px;
-  margin: 0 20px;
-}
+
 
 .teen-wolf-animation-1 > img {
   display: block;
@@ -908,12 +895,3 @@ div.footer-links > a > * {
   color: #ffc800;
 }
 
-.site-top-banner {
-  background-color: #ffc800;
-  text-align: center;
-}
-
-.site-top-banner > a {
-  font-size: 16px;
-  color: #191f24;
-}
