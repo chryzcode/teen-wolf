@@ -130,7 +130,20 @@ nav > ul > li {
   margin: 0 20px;
 }
 
-
+.contract-btn {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #ffc800;
+  padding: 10px 5px;
+  width: 100px;
+  border-radius: 8px;
+  color: #101417;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 20px;
+}
 
 .teen-wolf-animation-1 > img {
   display: block;
