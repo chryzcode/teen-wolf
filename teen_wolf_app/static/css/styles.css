@@ -225,7 +225,7 @@ nav > ul > li {
 .tokenomics-underlying-card-background {
   position: absolute;
   width: 733px;
-  height: 317px;
+  height: 357px;
   background: #ffc800;
   border-radius: 12px;
   transform: rotate(-3.16deg);
@@ -238,7 +238,7 @@ nav > ul > li {
 .tokenomics-card {
   position: relative;
   width: 733px;
-  height: 317px;
+  /* height: 317px; */
   background: #191f24;
   border-radius: 12px;
   left: 0;
@@ -247,10 +247,7 @@ nav > ul > li {
   margin-right: auto;
   font-size: 18px;
   line-height: 27px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  padding: 30px;
 }
 
 .card-segment-2 {

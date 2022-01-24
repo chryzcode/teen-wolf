@@ -44,7 +44,6 @@
 
   .tokenomics-card {
     width: 90%;
-    height: 100%;
     padding: 4%;
   }
 
@@ -415,6 +414,11 @@
     display: block;
   }
   .white-paper-btn {
+    display: block;
+    margin: 10px auto;
+  }
+
+  .contract-btn {
     display: block;
     margin: 10px auto;
   }
