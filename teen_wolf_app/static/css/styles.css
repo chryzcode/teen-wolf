@@ -239,6 +239,7 @@ nav > ul > li {
   position: relative;
   width: 733px;
   /* height: 317px; */
+  word-break: break-all;
   background: #191f24;
   border-radius: 12px;
   left: 0;
