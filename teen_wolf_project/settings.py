@@ -21,10 +21,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-SECRET_KEY = str(os.getenv('SECRET_KEY'))
-
+SECRET_KEY = 'ihfohgifjogmf90i09y54t9tregr'
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'teen-wolf-site.herokuapp.com', 'www.teenwolftoken.com', 'teenwolftoken.com']
 
@@ -82,24 +81,13 @@ WSGI_APPLICATION = 'teen_wolf_project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
 DATABASES = {
     'default': {
-        # 'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'db29tf2inmq900',
-        'USER': 'dcasumssxuvfkt',
-        'PASSWORD': '70f2f861d3b6b2536f771a58205917702c2eaaabd627b4235dd77ed563b38aaa',
-        'HOST': 'ec2-3-89-214-80.compute-1.amazonaws.com',
-        'POST': '5432',
+        
     }
 }
+
+
 
 
 # Password validation

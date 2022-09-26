@@ -1,9 +1,9 @@
-from .models import ContactForm
 from django import forms
 
-class ContactForm(forms.ModelForm):
-    class Meta:
-        model = ContactForm
-        fields = ['title', 'contact_email', 'content']
+class ContactForm(forms.Form):
+    title = forms.CharField(max_length=300)
+    contact_mail = forms.CharField(max_length=300)
+    content = forms.Textarea()
+
 
         
