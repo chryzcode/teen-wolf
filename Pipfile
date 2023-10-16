@@ -4,12 +4,10 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-dj-database-url = "*"
 django = "*"
-django-heroku = "*"
 gunicorn = "*"
 whitenoise = "*"
-python-dotenv = "*"
+
 
 [dev-packages]
 
